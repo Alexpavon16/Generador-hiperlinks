@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     reactStrictMode: true,
-    output: 'export', // Asegura que Next.js genera archivos estáticos
+    output: undefined, // Para que funcionen API routes
   };
   
   module.exports = nextConfig;
